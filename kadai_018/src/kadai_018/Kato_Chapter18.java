@@ -2,14 +2,10 @@ package kadai_018;
 
 abstract public class Kato_Chapter18 {
 
-	public String familyName;
+	public String familyName = "加藤";
 	public String givenName;
-	public String address;
-	
-	public Kato_Chapter18(String familyName, String address) {
-		this.familyName = familyName;
-		this.address = address;
-	}
+	public String address = "東京都中野区〇×";
+
 	
 	public void commonIntroduce() {
 		System.out.println("名前は" + familyName + givenName + "です");
